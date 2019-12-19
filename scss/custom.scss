@@ -39,8 +39,15 @@ p {
 }
 
 .gray-box {
-  background: #EDEDED;
-  border-left: 8px solid #009DDF;
+    background: #EDEDED;
+    border-left: 8px solid #009DDF;
+}
+
+.black-box {
+    background: #000000;
+    color: #FFFFFF;
+    width: 100%;
+    min-width: 100%; 
 }
 
 blockquote {
