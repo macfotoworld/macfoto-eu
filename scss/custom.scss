@@ -8,6 +8,8 @@ $carousel-control-transition:    opacity .30s ease-in-out !default;
 
 @import url(https://fonts.googleapis.com/css?family=Gruppo&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Lato:300&display=swap);
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Monoton&display=swap');
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -43,11 +45,20 @@ p {
     border-left: 8px solid #009DDF;
 }
 
+.monoton {
+    font-family: 'Monoton', cursive;
+    font-size: xx-large;
+}
+
 .black-box {
     background: #000000;
     color: #FFFFFF;
     width: 100%;
     min-width: 100%; 
+    p {
+        font-size: x-large;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+    }
 }
 
 blockquote {
