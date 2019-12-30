@@ -7777,6 +7777,18 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+a:link {
+  text-decoration: none; }
+
+a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+a:active {
+  text-decoration: none; }
+
 .video-full {
   width: 100%;
   min-width: 100%; }
@@ -7802,8 +7814,8 @@ p span {
   background: #EDEDED;
   border-left: 8px solid #009DDF; }
 
-.monoton {
-  font-family: 'Monoton', cursive;
+.black-box-header {
+  font-family: 'Barlow Semi Condensed', sans-serif;
   font-size: xx-large; }
 
 .black-box {
@@ -7867,6 +7879,9 @@ p {
 .my-brand {
   font-family: 'Gruppo', cursive;
   font-size: medium; }
+
+.icon-logo-black {
+  font-size: 75px !important; }
 
 .my-brand-top-left {
   position: fixed;
