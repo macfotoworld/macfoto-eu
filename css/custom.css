@@ -7811,37 +7811,37 @@ p span {
   margin-top: 1em; }
 
 .gray-box {
-  background: #EDEDED;
-  border-left: 8px solid #009DDF; }
+  background: #ededed;
+  border-left: 8px solid #009ddf; }
 
 .black-box-header {
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
   font-size: xx-large; }
 
 .black-box {
   background: #000000;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 100%;
   min-width: 100%; }
   .black-box p {
     font-size: x-large;
-    font-family: 'Barlow Semi Condensed', sans-serif; }
+    font-family: "Barlow Semi Condensed", sans-serif; }
 
 blockquote {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: italic;
   color: #555555;
   padding: 1.2em 30px 1.2em 75px;
-  border-left: 8px solid #009DDF;
+  border-left: 8px solid #009ddf;
   line-height: 1.6;
   position: relative;
-  background: #EDEDED; }
+  background: #ededed; }
 
 blockquote::before {
   z-index: 1500;
   font-family: Arial;
   content: "\201C";
-  color: #009DDF;
+  color: #009ddf;
   opacity: 0.4;
   font-size: 14em;
   position: absolute;
@@ -7857,27 +7857,32 @@ blockquote span {
   margin-top: 1em; }
 
 .small-text {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: small; }
 
-p, h2, h3, h4 {
-  font-family: 'Lato', sans-serif; }
+p,
+h2,
+h3,
+h4 {
+  font-family: "Lato", sans-serif; }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   font-weight: bold; }
 
 p {
   font-size: large; }
 
 .my-header {
-  font-family: 'Gruppo', cursive; }
+  font-family: "Gruppo", cursive; }
   .my-header h1 {
     font-size: 3em;
     font-weight: bold;
     letter-spacing: 0.5em; }
 
 .my-brand {
-  font-family: 'Gruppo', cursive;
+  font-family: "Gruppo", cursive;
   font-size: medium; }
 
 .icon-logo-black {
@@ -7890,7 +7895,7 @@ p {
   z-index: 2; }
 
 .my-nav {
-  font-family: 'Gruppo', cursive;
+  font-family: "Gruppo", cursive;
   font-size: medium;
   font-weight: bold; }
   .my-nav .nav-item {
@@ -7898,7 +7903,7 @@ p {
     margin-right: 3em; }
 
 .my-h1 {
-  font-family: 'Gruppo', cursive;
+  font-family: "Gruppo", cursive;
   font-size: large;
   font-weight: bold; }
 
@@ -7909,27 +7914,27 @@ a:visited {
   color: black; }
 
 a:hover {
-  color: #009DDF; }
+  color: #009ddf; }
 
 a:active {
   color: black; }
 
 .rotate-90deg {
-  transition: 0.70s;
-  -webkit-transition: 0.70s;
-  -moz-transition: 0.70s;
-  -ms-transition: 0.70s;
-  -o-transition: 0.70s;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
   display: block;
   margin-right: auto;
   margin-left: auto; }
 
 .rotate-90deg:hover {
-  transition: 0.70s;
-  -webkit-transition: 0.70s;
-  -moz-transition: 0.70s;
-  -ms-transition: 0.70s;
-  -o-transition: 0.70s;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);
@@ -7947,11 +7952,11 @@ a:active {
   text-shadow: none;
   color: black !important;
   opacity: 0.4;
-  -webkit-transition: opacity .30s ease-in-out;
-  -moz-transition: opacity .30s ease-in-out;
-  -o-transition: opacity .30s ease-in-out;
-  -ms-transition: opacity .30s ease-in-out;
-  transition: opacity .30s ease-in-out; }
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out; }
 
 .carousel-control-close:hover {
   color: black !important;
@@ -7969,7 +7974,7 @@ a:active {
   width: 100%;
   height: 100%;
   cursor: pointer;
-  font-family: 'Gruppo', cursive;
+  font-family: "Gruppo", cursive;
   font-size: 2em;
   text-align: center;
   display: flex;
@@ -7978,11 +7983,11 @@ a:active {
   color: black !important;
   background: white !important;
   opacity: 0;
-  -webkit-transition: opacity .30s ease-in-out;
-  -moz-transition: opacity .30s ease-in-out;
-  -o-transition: opacity .30s ease-in-out;
-  -ms-transition: opacity .30s ease-in-out;
-  transition: opacity .30s ease-in-out; }
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out; }
 
 .select:hover {
   opacity: 0.6; }
